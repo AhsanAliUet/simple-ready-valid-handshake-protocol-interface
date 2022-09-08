@@ -8,9 +8,9 @@ module val_ready_fsm #(
    input rst_i,
 
    input ready_i,
-   input valid_i,
+   input valid_i,             //Not used for now
 
-   output logic ready_o,
+   output logic ready_o,     //Not used for now
    output logic valid_o,
 
    input [DW-1:0] data_in,
